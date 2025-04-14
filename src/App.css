@@ -1,0 +1,32 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 1rem;
+  }
+}
+
+/* Add this to your existing CSS */
+.MuiDialog-paper {
+  min-width: 400px;
+}
+
+@media (max-width: 600px) {
+  .MuiDialog-paper {
+    min-width: 300px;
+    margin: 16px;
+  }
+}
+
+body{
+  background-color: rgb(203, 244, 244);
+}
