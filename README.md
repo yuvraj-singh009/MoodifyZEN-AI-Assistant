@@ -7,6 +7,7 @@ you can try it out on the given link
 or if you want to run on your  localhost:
 1.first, download the zip file.
 2. then make sure to install certain libraries and dependencies given below:
+
 npm install 
 npm install axios @mui/material @mui/icons-material @emotion/react @emotion/styled react-icons framer-motion
 npm install @google/generative-ai
